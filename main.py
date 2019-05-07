@@ -9,6 +9,9 @@ from selenium import webdriver
 # for better navigation - ideally needs to be removed cos css selectors
 from bs4 import BeautifulSoup
 
+# used for loading chat names from a json
+import json
+
 # modules used with the various bots
 import time
 import random
@@ -19,7 +22,9 @@ from nltk.corpus import wordnet as wn
 token = util.prompt_for_user_token("YOUR EMAIL", "user-library-read")
 
 # populate this list with the names of all chats which bots can be active on
-CHATS = []
+with open("chats.json", "r") as f:
+    CHATS = json.load(f)
+
 # populate this list with bots
 BOTS = []
 # message to add to the end of each bot message 
