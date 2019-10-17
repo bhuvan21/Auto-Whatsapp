@@ -1,6 +1,6 @@
 # Auto-Whatsapp
 
-This is a simply selenium based framework for creating whatsapp bots. It interacts with whatsapp web to read messages and send them. The major problem with this approach is speed/performance.
+This is a simple selenium based framework for creating whatsapp bots. It interacts with whatsapp web to read messages and send them. The major problem with this approach is speed/performance.
 
 ## Installation  
 
