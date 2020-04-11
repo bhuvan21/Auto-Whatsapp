@@ -19,10 +19,10 @@ Customise the bottom part of main.py to choose which bots you would like to be a
 Now just run main.py, scan the authorisation QR code and the bots should start to work!
 
 ## Usage
-After following the previous installation instructions, commands can be run by anyone by sending a message on the relevant chat as follows:
-`!command-name parameter1 parameter2 . . .`
-e.g.
-`roll d20` will roll a 20 sided dice.
+After following the previous installation instructions, commands can be run by anyone by sending a message on the relevant chat as follows:\
+`!command-name parameter1 parameter2 . . .`\
+e.g.\
+`roll d20` will roll a 20 sided dice.\
 
 ## Progress
 
