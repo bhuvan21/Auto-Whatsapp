@@ -22,7 +22,7 @@ Now just run main.py, scan the authorisation QR code and the bots should start t
 After following the previous installation instructions, commands can be run by anyone by sending a message on the relevant chat as follows:\
 `!command-name parameter1 parameter2 . . .`\
 e.g.\
-`roll d20` will roll a 20 sided dice.\
+`roll d20` will roll a 20 sided dice.
 
 ## Progress
 
