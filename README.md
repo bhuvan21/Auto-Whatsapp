@@ -3,15 +3,15 @@
 This is a simple selenium based framework for creating whatsapp bots. It interacts with whatsapp web to both read and send messages. The major problem with this approach is speed/performance. Unfortunately, until whatsapp provides us with a public API, this is the best we can get.
 
 ## Installation  
-First install the following dependancies.
+First install the following dependancies, all available on pip.
 
 ### Core Dependancies:  
-selenium, splinter, base64, bs4  
+`selenium, splinter, base64, bs4`\
 
 ### Extra Bot Specific Dependancies:  
-spotipy, nltk (with extra data)  
+`spotipy, nltk` (with extra data)  
 
-Chromedriver has to be installed and in your path.  
+Next ensure a chromedriver executable is downloaded and in your path.  
 If using spotipy, you'll have to register on the spotify dev website, and sort out authentication yourself (i.e set path variables etc)
 Finally, clone this repository. Now you'll have to customise the options for your whatsapp setup.
 Replace the sample chat names in chats.json with the chat names you want these bots to be active on.
