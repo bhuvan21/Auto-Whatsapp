@@ -4,10 +4,10 @@ This is a simple selenium based framework for creating whatsapp bots. It interac
 
 ## Installation  
 
-### Core Dependancies are:  
+### Core Dependancies:  
 selenium, splinter, base64, bs4  
 
-### Bot Dependancies are:  
+### Extra Bot Specific Dependancies:  
 spotipy, nltk (with extra data)  
 
 Chromedriver has to be installed and in your path.  
@@ -15,15 +15,15 @@ If using spotipy, you'll have to register on the spotify dev website, and sort o
 
 ## Progress
 
-### Current Commands are:
-spotify  
-youtube  
-spongebob  
-remindme  
-thesaurize  
-aboutme  
-help  
-roll  
+### Current Available Commands are:
+spotify - searches spotify for your query
+youtube - searches youtube for your query
+spongebob - selectively capitalizes text for comedic effect
+remindme - sends a reminder message after a specific period of time
+thesaurize - changes every word replaced by a synonym from a thesaurus
+aboutme - gives information about this bot framework
+help - gives syntax help about the specified command
+roll - rolls a variable sided dice
 
 ### ToDo Commands are:  
 mal  
