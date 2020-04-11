@@ -6,7 +6,7 @@ This is a simple selenium based framework for creating whatsapp bots. It interac
 First install the following dependancies, all available on pip.
 
 ### Core Dependancies:  
-`selenium, splinter, base64, bs4`\
+`selenium, splinter, base64, bs4`
 
 ### Extra Bot Specific Dependancies:  
 `spotipy, nltk` (with extra data)  
